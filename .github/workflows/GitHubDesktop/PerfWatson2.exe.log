@@ -1,0 +1,15 @@
+1,"fusion","GAC",0
+1,"WinRT","NotApp",1
+3,"System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","C:\WINDOWS\assembly\NativeImages_v4.0.30319_32\System\7eff558bb25b205bc169e86e89032f9d\System.ni.dll",0
+3,"System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","C:\WINDOWS\assembly\NativeImages_v4.0.30319_32\System.Core\9e1cc73b80e7010209000d3280b036dc\System.Core.ni.dll",0
+3,"System.Xml.Linq, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","C:\WINDOWS\assembly\NativeImages_v4.0.30319_32\System.Xml.Linq\a7c8287a5a8b532190ec504acc41f336\System.Xml.Linq.ni.dll",0
+3,"System.Configuration, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a","C:\WINDOWS\assembly\NativeImages_v4.0.30319_32\System.Configuration\be87489cac5451cabd659f6be936f1db\System.Configuration.ni.dll",0
+3,"System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","C:\WINDOWS\assembly\NativeImages_v4.0.30319_32\System.Xml\8c6675e2ff4bb46151e9d8752fbedb3a\System.Xml.ni.dll",0
+2,"System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a",0
+2,"System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",0
+2,"System.Numerics, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",0
+3,"System.Runtime.Serialization, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","C:\WINDOWS\assembly\NativeImages_v4.0.30319_32\System.Runteb92aa12#\8230fbcc6eb435824929ac54a6ad7f4a\System.Runtime.Serialization.ni.dll",0
+2,"System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",0
+2,"SMDiagnostics, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",0
+2,"System.ServiceModel.Internals, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35",0
+2,"System.Management, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a",0
