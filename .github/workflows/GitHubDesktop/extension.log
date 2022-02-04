@@ -1,0 +1,157 @@
+2019-09-05 09:20:52.408 [04288] INFO [01] GitHubPackage             Initializing GitHub Extension v2.9.1.7781 in Microsoft Visual Studio 2019 (16.2.29215.179)
+2019-09-05 09:21:47.093 [04288] EROR [01] LoginTabViewModel         Error logging into '"https://github.com/"' as 'swadrian21@hotmail.com'
+Octokit.AuthorizationException: Bad credentials
+   at Octokit.Connection.HandleErrors(IResponse response)
+   at Octokit.Connection.<RunRequest>d__58.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Octokit.Connection.<Run>d__57`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Octokit.ApiConnection.<Put>d__26`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at GitHub.Api.LoginManager.<CreateAndDeleteExistingApplicationAuthorization>d__18.MoveNext() in C:\projects\visualstudio\src\GitHub.Api\LoginManager.cs:line 218
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at GitHub.Api.LoginManager.<Login>d__13.MoveNext() in C:\projects\visualstudio\src\GitHub.Api\LoginManager.cs:line 102
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at GitHub.Api.LoginManager.<Login>d__13.MoveNext() in C:\projects\visualstudio\src\GitHub.Api\LoginManager.cs:line 125
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at GitHub.VisualStudio.ConnectionManager.<LogIn>d__13.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at GitHub.ViewModels.Dialog.LoginTabViewModel.<LogInToHost>d__55.MoveNext() in C:\projects\visualstudio\src\GitHub.App\ViewModels\Dialog\LoginTabViewModel.cs:line 159
+{"message":"Bad credentials","documentation_url":"https://developer.github.com/v3"}
+2019-09-05 09:21:55.405 [04288] EROR [01] LoginTabViewModel         Error logging into '"https://github.com/"' as 'swadrian21@hotmail.com'
+Octokit.AuthorizationException: Bad credentials
+   at Octokit.Connection.HandleErrors(IResponse response)
+   at Octokit.Connection.<RunRequest>d__58.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Octokit.Connection.<Run>d__57`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Octokit.ApiConnection.<Put>d__26`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at GitHub.Api.LoginManager.<CreateAndDeleteExistingApplicationAuthorization>d__18.MoveNext() in C:\projects\visualstudio\src\GitHub.Api\LoginManager.cs:line 218
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at GitHub.Api.LoginManager.<Login>d__13.MoveNext() in C:\projects\visualstudio\src\GitHub.Api\LoginManager.cs:line 102
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at GitHub.Api.LoginManager.<Login>d__13.MoveNext() in C:\projects\visualstudio\src\GitHub.Api\LoginManager.cs:line 125
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at GitHub.VisualStudio.ConnectionManager.<LogIn>d__13.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at GitHub.ViewModels.Dialog.LoginTabViewModel.<LogInToHost>d__55.MoveNext() in C:\projects\visualstudio\src\GitHub.App\ViewModels\Dialog\LoginTabViewModel.cs:line 159
+{"message":"Bad credentials","documentation_url":"https://developer.github.com/v3"}
+2019-09-05 09:22:13.461 [04288] EROR [01] LoginTabViewModel         Error logging into '"https://github.com/"' as 'swadrian21@hotmail.com'
+Octokit.AuthorizationException: Bad credentials
+   at Octokit.Connection.HandleErrors(IResponse response)
+   at Octokit.Connection.<RunRequest>d__58.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Octokit.Connection.<Run>d__57`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Octokit.ApiConnection.<Put>d__26`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at GitHub.Api.LoginManager.<CreateAndDeleteExistingApplicationAuthorization>d__18.MoveNext() in C:\projects\visualstudio\src\GitHub.Api\LoginManager.cs:line 218
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at GitHub.Api.LoginManager.<Login>d__13.MoveNext() in C:\projects\visualstudio\src\GitHub.Api\LoginManager.cs:line 102
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at GitHub.Api.LoginManager.<Login>d__13.MoveNext() in C:\projects\visualstudio\src\GitHub.Api\LoginManager.cs:line 125
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at GitHub.VisualStudio.ConnectionManager.<LogIn>d__13.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at GitHub.ViewModels.Dialog.LoginTabViewModel.<LogInToHost>d__55.MoveNext() in C:\projects\visualstudio\src\GitHub.App\ViewModels\Dialog\LoginTabViewModel.cs:line 159
+{"message":"Bad credentials","documentation_url":"https://developer.github.com/v3"}
+2019-09-05 09:24:48.009 [04288] INFO [01] RepositorySelectViewModel Read 1 viewer repositories
+2019-09-21 21:20:40.218 [04024] INFO [61] GitHubPackage             Initializing GitHub Extension v2.9.1.7781 in Microsoft Visual Studio 2019 (16.2.29306.81)
+2020-03-04 07:02:31.535 [09832] INFO [26] GitHubPackage             Initializing GitHub Extension v2.10.8.8132 in Microsoft Visual Studio 2019 (16.4.29806.167)
+2020-03-04 07:05:28.854 [09832] EROR [74] GitHubServiceProvider     Error loading GitHub.Services.IConnectionManager
+System.InvalidOperationException: Due to high risk of deadlock you cannot call GetService from a background thread in an AsyncPackage derived class. You should instead call GetServiceAsync (without calling Result or Wait on the resultant Task object) or switch to the UI thread with the JoinableTaskFactory.SwitchToMainThreadAsync method before calling GetService.
+   at Microsoft.VisualStudio.Shell.AsyncPackage.GetService(Type serviceType)
+   at Microsoft.VisualStudio.Shell.Package.System.IServiceProvider.GetService(Type serviceType)
+   at GitHub.VisualStudio.GitHubServiceProvider.TryGetService(Type serviceType)
+2020-03-04 07:05:28.870 [09832] EROR [74] GitHubServiceProvider     Error loading GitHub.Api.IKeychain
+System.InvalidOperationException: Due to high risk of deadlock you cannot call GetService from a background thread in an AsyncPackage derived class. You should instead call GetServiceAsync (without calling Result or Wait on the resultant Task object) or switch to the UI thread with the JoinableTaskFactory.SwitchToMainThreadAsync method before calling GetService.
+   at Microsoft.VisualStudio.Shell.AsyncPackage.GetService(Type serviceType)
+   at Microsoft.VisualStudio.Shell.Package.System.IServiceProvider.GetService(Type serviceType)
+   at GitHub.VisualStudio.GitHubServiceProvider.TryGetService(Type serviceType)
+2020-03-04 07:05:28.870 [09832] EROR [74] GitHubServiceProvider     Error loading GitHub.Api.IOAuthCallbackListener
+System.InvalidOperationException: Due to high risk of deadlock you cannot call GetService from a background thread in an AsyncPackage derived class. You should instead call GetServiceAsync (without calling Result or Wait on the resultant Task object) or switch to the UI thread with the JoinableTaskFactory.SwitchToMainThreadAsync method before calling GetService.
+   at Microsoft.VisualStudio.Shell.AsyncPackage.GetService(Type serviceType)
+   at Microsoft.VisualStudio.Shell.Package.System.IServiceProvider.GetService(Type serviceType)
+   at GitHub.VisualStudio.GitHubServiceProvider.TryGetService(Type serviceType)
+2021-12-22 17:22:03.174 [15212] INFO [24] GitHubPackage             Initializing GitHub Extension v2.11.106.19330 in Microsoft Visual Studio 2019 (16.9.31129.286)
+2021-12-22 17:24:54.580 [15212] EROR [23] GitHubServiceProvider     Error loading GitHub.Services.IConnectionManager
+System.InvalidOperationException: Due to high risk of deadlock you cannot call GetService from a background thread in an AsyncPackage derived class. You should instead call GetServiceAsync (without calling Result or Wait on the resultant Task object) or switch to the UI thread with the JoinableTaskFactory.SwitchToMainThreadAsync method before calling GetService.
+   at Microsoft.VisualStudio.Shell.AsyncPackage.GetService(Type serviceType)
+   at Microsoft.VisualStudio.Shell.Package.System.IServiceProvider.GetService(Type serviceType)
+   at GitHub.VisualStudio.GitHubServiceProvider.TryGetService(Type serviceType)
+2022-01-05 14:55:42.902 [15936] INFO [85] GitHubPackage             Initializing GitHub Extension v2.11.106.19330 in Microsoft Visual Studio 2019 (16.9.31129.286)
+2022-01-05 14:58:40.535 [15936] EROR [65] GitHubServiceProvider     Error loading GitHub.Services.IConnectionManager
+System.InvalidOperationException: Due to high risk of deadlock you cannot call GetService from a background thread in an AsyncPackage derived class. You should instead call GetServiceAsync (without calling Result or Wait on the resultant Task object) or switch to the UI thread with the JoinableTaskFactory.SwitchToMainThreadAsync method before calling GetService.
+   at Microsoft.VisualStudio.Shell.AsyncPackage.GetService(Type serviceType)
+   at Microsoft.VisualStudio.Shell.Package.System.IServiceProvider.GetService(Type serviceType)
+   at GitHub.VisualStudio.GitHubServiceProvider.TryGetService(Type serviceType)
+2022-01-05 14:58:40.597 [15936] EROR [65] GitHubServiceProvider     Error loading GitHub.Api.IKeychain
+System.InvalidOperationException: Due to high risk of deadlock you cannot call GetService from a background thread in an AsyncPackage derived class. You should instead call GetServiceAsync (without calling Result or Wait on the resultant Task object) or switch to the UI thread with the JoinableTaskFactory.SwitchToMainThreadAsync method before calling GetService.
+   at Microsoft.VisualStudio.Shell.AsyncPackage.GetService(Type serviceType)
+   at Microsoft.VisualStudio.Shell.Package.System.IServiceProvider.GetService(Type serviceType)
+   at GitHub.VisualStudio.GitHubServiceProvider.TryGetService(Type serviceType)
+2022-01-05 14:58:40.597 [15936] EROR [65] GitHubServiceProvider     Error loading GitHub.Api.IOAuthCallbackListener
+System.InvalidOperationException: Due to high risk of deadlock you cannot call GetService from a background thread in an AsyncPackage derived class. You should instead call GetServiceAsync (without calling Result or Wait on the resultant Task object) or switch to the UI thread with the JoinableTaskFactory.SwitchToMainThreadAsync method before calling GetService.
+   at Microsoft.VisualStudio.Shell.AsyncPackage.GetService(Type serviceType)
+   at Microsoft.VisualStudio.Shell.Package.System.IServiceProvider.GetService(Type serviceType)
+   at GitHub.VisualStudio.GitHubServiceProvider.TryGetService(Type serviceType)
+2022-01-08 14:07:26.363 [13136] INFO [39] GitHubPackage             Initializing GitHub Extension v2.11.106.19330 in Microsoft Visual Studio 2019 (16.9.31129.286)
+2022-01-08 14:10:24.305 [13136] EROR [51] GitHubServiceProvider     Error loading GitHub.Services.IConnectionManager
+System.InvalidOperationException: Due to high risk of deadlock you cannot call GetService from a background thread in an AsyncPackage derived class. You should instead call GetServiceAsync (without calling Result or Wait on the resultant Task object) or switch to the UI thread with the JoinableTaskFactory.SwitchToMainThreadAsync method before calling GetService.
+   at Microsoft.VisualStudio.Shell.AsyncPackage.GetService(Type serviceType)
+   at Microsoft.VisualStudio.Shell.Package.System.IServiceProvider.GetService(Type serviceType)
+   at GitHub.VisualStudio.GitHubServiceProvider.TryGetService(Type serviceType)
+2022-01-08 14:10:24.813 [13136] EROR [51] GitHubServiceProvider     Error loading GitHub.Api.IKeychain
+System.InvalidOperationException: Due to high risk of deadlock you cannot call GetService from a background thread in an AsyncPackage derived class. You should instead call GetServiceAsync (without calling Result or Wait on the resultant Task object) or switch to the UI thread with the JoinableTaskFactory.SwitchToMainThreadAsync method before calling GetService.
+   at Microsoft.VisualStudio.Shell.AsyncPackage.GetService(Type serviceType)
+   at Microsoft.VisualStudio.Shell.Package.System.IServiceProvider.GetService(Type serviceType)
+   at GitHub.VisualStudio.GitHubServiceProvider.TryGetService(Type serviceType)
+2022-01-08 14:10:24.816 [13136] EROR [51] GitHubServiceProvider     Error loading GitHub.Api.IOAuthCallbackListener
+System.InvalidOperationException: Due to high risk of deadlock you cannot call GetService from a background thread in an AsyncPackage derived class. You should instead call GetServiceAsync (without calling Result or Wait on the resultant Task object) or switch to the UI thread with the JoinableTaskFactory.SwitchToMainThreadAsync method before calling GetService.
+   at Microsoft.VisualStudio.Shell.AsyncPackage.GetService(Type serviceType)
+   at Microsoft.VisualStudio.Shell.Package.System.IServiceProvider.GetService(Type serviceType)
+   at GitHub.VisualStudio.GitHubServiceProvider.TryGetService(Type serviceType)
+2022-01-17 15:31:27.472 [11048] INFO [01] RepositorySelectViewModel Read 13 viewer repositories
+2022-01-17 15:33:21.234 [11048] INFO [16] GitHubPackage             Initializing GitHub Extension v2.11.106.19330 in Microsoft Visual Studio 2019 (16.9.31129.286)
+2022-01-19 16:30:28.297 [07976] INFO [01] RepositorySelectViewModel Read 14 viewer repositories
+2022-01-19 16:32:51.235 [07976] INFO [45] GitHubPackage             Initializing GitHub Extension v2.11.106.19330 in Microsoft Visual Studio 2019 (16.9.31129.286)
