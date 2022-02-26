@@ -1,0 +1,20 @@
+Error Information
+AppInsightsEvent Name = vs/setup/bootstrapper/error
+          Description = UnauthorizedAccessException
+     TelemetrySession = '20db3416-9959-4920-bc63-b713de771585' Started = True OptIn=True IsInitialized = True Cloned = False
+      WatsonEventType = VisualStudioNonFatalErrors2
+             UTC time = 2022-02-26T12:31:06
+
+ Exception:
+ System.UnauthorizedAccessException
+ Access to the path 'C:\ProgramData\Microsoft\VisualStudio\Packages\_bootstrapper\vs_setup_bootstrapper_202202261331057943.json' is denied.
+ System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+ System.IO.File.InternalCopy(String sourceFileName, String destFileName, Boolean overwrite, Boolean checkHost)
+ System.IO.File.Copy(String sourceFileName, String destFileName, Boolean overwrite)
+ Microsoft.VisualStudio.Setup.Services.FileSystem.CopyFile(String source, String destination)
+ Microsoft.VisualStudio.Setup.Extensions.<>c__DisplayClass77_0.<CopyFileWithRetry>b__0()
+ Microsoft.VisualStudio.Setup.Extensions.ExecuteFileActionWithRetry(Int32 retryCount, Int32 retryDelay, Action fileAction, Boolean throwOnFailure, Func`3 errorAction)
+ Microsoft.VisualStudio.Setup.Extensions.CopyFileWithRetry(IFileSystem fileSystem, String source, String destination, Int32 retryCount, Int32 retryDelay)
+ Microsoft.VisualStudio.Setup.Bootstrapper.Program.Parse(String[] args, IServiceProvider serviceProvider, IC2RSignatureReaderInterop c2rSignatureReader, String entryAssemblyProcessName, String entryAssemblyProcessFullName)
+ Microsoft.VisualStudio.Setup.Bootstrapper.Program.Run(String[] args)
+WerReportAddDump PID=6732 vs_setup_bootstrapper WerDumpTypeMiniDump
